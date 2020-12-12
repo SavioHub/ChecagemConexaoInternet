@@ -13,9 +13,9 @@ def send():
 
         #configurar os parâmetros da mensagem
 
-        password = "987654321SAJ"
-        msg['From'] = "checkinternet2021@gmail.com"
-        msg['To'] = "craftgames.alysson@gmail.com"
+        password = "your password"
+        msg['From'] = "your mail"
+        msg['To'] = "mail to send"
         msg['Subject'] = "Aviso de instabilidade"
         msg.add_header('content-type', 'text/html')
         msg.set_charset('utf8')
